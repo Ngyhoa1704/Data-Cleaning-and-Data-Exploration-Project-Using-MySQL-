@@ -1,8 +1,8 @@
-# 🌍 World Life Expectancy SQL Project
+# World Life Expectancy SQL Project
 
 This project focuses on cleaning and preparing a real-world dataset named `worldlifeexpectancy` for further analysis. The dataset contains annual records of health and socioeconomic indicators for various countries.
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The `worldlifeexpectancy` table includes:
 
@@ -29,7 +29,7 @@ The `worldlifeexpectancy` table includes:
 
 ---
 
-## 🔧 Part 1: Data Cleaning Process
+## Part 1: Data Cleaning Process
 
 ### 1. Handling Missing Values
 - **Status**: Filled missing values based on country context.
@@ -60,11 +60,11 @@ The `worldlifeexpectancy` table includes:
 
 
 
-# 🌍 World Life Expectancy SQL Project - Part 2: Exploratory Data Analysis (EDA)
+# World Life Expectancy SQL Project - Part 2: Exploratory Data Analysis (EDA)
 
 This project is a continuation of the Data Cleaning phase, applying SQL-based Exploratory Data Analysis (EDA) on the cleaned worldlifeexpectancy dataset. The dataset includes socioeconomic and health indicators across countries and years.
 
-## 🔍 Key Questions Explored
+## Key Questions Explored
 
 ### 1. Descriptive Statistics
 Calculated mean, median, min, and max Life Expectancy for each country.
@@ -127,12 +127,12 @@ Found regional disparities in Life Expectancy:
 Europe: Highest (~77.4 years)
 Africa: Lowest (~58.6 years)
 
-## 🔧 Tools Used
+## Tools Used
 SQL (MySQL) for analysis
 Window Functions: ROW_NUMBER(), AVG() OVER for trend & percentile insights
 CTEs for logical separation and reuse of query logic
 
-## 📅 Author
+## Author
 Credit to: Ms tuhoang3112 (Zoe) for guiding this project and Self-study Data Discord Group for Dataset provider
 
 
